@@ -20,7 +20,16 @@ namespace BusinessLayer
         #endregion
 
         #region Student
-        
+        IEnumerable<Student> GetAllStudents();
+
+        Student GetStudentByID(int id);
+
+        void AddStudent(Student student);
+
+        void UpdateStudent(Student student);
+
+        void RemoveStudent(Student student);
+
         #endregion
     }
 }

@@ -101,6 +101,7 @@
     <Compile Include="StudentAddress.cs">
       <DependentUpon>SchoolDBModel.tt</DependentUpon>
     </Compile>
+    <Compile Include="StudentRepository.cs" />
     <Compile Include="Teacher.cs">
       <DependentUpon>SchoolDBModel.tt</DependentUpon>
     </Compile>

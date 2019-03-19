@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DataAccessLayer
 {
-    interface IStudentRepository
+    public interface IStudentRepository : IRepository<Student>
     {
     }
 }

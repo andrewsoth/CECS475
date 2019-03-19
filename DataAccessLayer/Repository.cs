@@ -6,7 +6,7 @@ using System.Linq;
 using System.Linq.Expressions;
 
 namespace DataAccessLayer
-{
+{   //Generic repository for our entities Standard and Student
     public class Repository<T> : IRepository<T> where T : class
     {
         protected DbContext context;
